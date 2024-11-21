@@ -6,10 +6,33 @@ body {
    
     .img{right: 1100px; float:left;}
 }
-  
+
+.imagem-ajustada {
+    width: 1600px;
+    height: 650px;
+}
+
+
+.imagem-relativa {
+        position: relative;
+        top: 300px;   /* Mover para baixo */
+        left: 650px;
+}
+.texto {
+    position: absolute;
+    top: 50%; /* 50% do topo da imagem */
+    left: 50%; /* 50% da largura da imagem */
+    transform: translate(-50%, -50%); /* Ajusta para que o texto fique centrado */
+    color: rgb(189, 36, 36); /* Cor do texto */
+    font-size: 80px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para destacar o texto */
+}
+
+    
 header {
-    background: #a8a8a8;
-    color: white;
+    background: #ffffff;
+    color: rgb(255, 0, 0);
     padding: -5px 0;
     text-align: center;
 }
@@ -26,12 +49,12 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color: rgb(179, 32, 32);
     text-decoration: none;
 }
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 section {
@@ -41,7 +64,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #474747;
     color: white;
     position: relative;
     bottom: 0;
