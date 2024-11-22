@@ -18,13 +18,32 @@ body {
         top: 300px;   /* Mover para baixo */
         left: 650px;
 }
+
+.img {
+    width: 500px; /* Defina o tamanho da imagem, se necessário */
+    height: auto;
+  }
+  .imge {
+    width: 500px; /* Defina o tamanho da imagem, se necessário */
+    height: auto;
+  }
+
+.container {
+    display: flex;
+    align-items: center; /* Alinha o texto e a imagem verticalmente no centro */
+  }
+
+  .texto-imagem {
+    margin-right: 150px; /* Espaço entre o texto e a imagem */
+  }
+
 .texto {
     position: absolute;
     top: 50%; /* 50% do topo da imagem */
     left: 50%; /* 50% da largura da imagem */
     transform: translate(-50%, -50%); /* Ajusta para que o texto fique centrado */
     color: rgb(189, 36, 36); /* Cor do texto */
-    font-size: 80px; /* Tamanho da fonte */
+    font-size: 90px; /* Tamanho da fonte */
     font-weight: bold; /* Deixa o texto em negrito */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para destacar o texto */
 }
@@ -69,4 +88,28 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+.footer-1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Isso garante que o rodapé fique no final da página */
+}
+
+/* Estilos do botão */
+.footer-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos ao passar o mouse sobre o botão */
+.footer-button:hover {
+    background-color: #e67e22;
 }
